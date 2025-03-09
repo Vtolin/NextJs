@@ -1,5 +1,5 @@
-# 🚧 Work in Progress: This project is still in development. Feel free to modify and customize it for your own needs.
-- All the files uploaded are half baked. You can modify them and design it with your own style or use it as a template for a portofolio website using NextJs
+# 🚧 Work in Progress:
+- This project is still in development. Feel free to modify and customize it for your own needs. All the files uploaded are half baked. You can modify them and design it with your own style or use it as a template for a portofolio website using NextJs
 
 # About the Project
 This is my first project using Next.js, a React framework for building modern web applications. It serves as a simple portfolio template but can be extended into a full CRUD app in the future.
