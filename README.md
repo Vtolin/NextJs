@@ -1,5 +1,5 @@
 # NextJs
-🚧 Work in Progress
+### 🚧 Work in Progress
 - This project is still in development. Feel free to modify and customize it for your own needs. All the files uploaded are half baked. You can modify them and design it with your own style or use it as a template for a portofolio website using NextJs
 
 # About the Project
