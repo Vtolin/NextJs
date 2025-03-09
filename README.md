@@ -1,13 +1,13 @@
-# NOTE: THIS IS NOT A FINISHED PROJECT YET
+# 🚧 Work in Progress: This project is still in development. Feel free to modify and customize it for your own needs.
 - All the files uploaded are half baked. You can modify them and design it with your own style or use it as a template for a portofolio website using NextJs
 
-# NextJs
-My first time creating a repo with a react framework 
-(also 1st time with Js framework)
+# About the Project
+This is my first project using Next.js, a React framework for building modern web applications. It serves as a simple portfolio template but can be extended into a full CRUD app in the future.
 
-## Basic front end
-Its just gonna be a basic front end web app (unless i decided to make it a crud). Also, the rest of the readme bellow is just the default readme when you  [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+## Features (so far):
+- 📄 Simple page structure
+- 🎨 Basic styling (Tailwind CSS)
+- 🚀 Ready for further development
 
 ### This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
