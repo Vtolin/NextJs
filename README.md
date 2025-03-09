@@ -17,7 +17,7 @@ This is my first project using Next.js, a React framework for building modern we
 Clone the repo:
 ```
 git clone https://github.com/Vtolin/NextJsx.git  
-cd NextJsx
+cd NextJs
 ```
 Install dependencies:
 ```
