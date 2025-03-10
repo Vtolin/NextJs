@@ -11,11 +11,11 @@ const Body = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="h-[250px] rounded-lg w-full sm:w-[100%] bg-white mx-auto">
-            {/* <img src="" alt="image" className="w-full h-full object-cover rounded-lg" /> */}
+            {/* <Image src="" alt="image" className="w-full h-full object-cover rounded-lg" /> */}
           </div>
 
           <p className="text-lg text-gray-700 leading-relaxed">
-            I'm Rajendra Pasha, also known as Pasha. I am a student at 
+            I&apos;m Rajendra Pasha, also known as Pasha. I am a student at 
             SMA Triguna Utama. I started learning to code in March 2024 on <a href="https://www.freecodecamp.org" target="_blank" 
                className="text-blue-600 underline">
               freeCodeCamp
