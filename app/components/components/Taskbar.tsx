@@ -1,5 +1,6 @@
 import Button from "./btns/Button";
 import React from "react";
+import Image from "next/image";
 
 const Taskbar = () => {
 return (
@@ -8,7 +9,7 @@ return (
         <div className="max-w-[910%] mx-auto px-4 py-3 flex items-center justify-between">
             <div className="flex items-center space-x-4">
                 <div className="text-gray-700 font-semibold text-lg">
-                    <img src="/next.svg" className="h-[15px]" />
+                    <Image alt="nextlogo" src="/next.svg" className="h-[15px]" />
                 </div>
             </div>
             <Button />
