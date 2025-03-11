@@ -9,7 +9,7 @@ return (
         <div className="max-w-[910%] mx-auto px-4 py-3 flex items-center justify-between">
             <div className="flex items-center space-x-4">
                 <div className="text-gray-700 font-semibold text-lg">
-                    <Image alt="nextlogo" src="/next.svg" className="h-[15px]" />
+                    <Image alt="nextlogo" src="/next.svg" className="h-[15px]" width={75} height={15}/>
                 </div>
             </div>
             <Button />
