@@ -3,8 +3,7 @@ import Image from "next/image";
 
 const work = () => {
     return (
-        <div id="work">
-        <section className="mb-16">
+        <section className="mb-16 pt-18" id="work">
         <h2 className="text-3xl font-bold mb-6">My Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
@@ -21,7 +20,6 @@ const work = () => {
             </div>
         </div>
     </section>
-    </div>
     );
 };
 
