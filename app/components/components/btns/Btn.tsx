@@ -5,7 +5,14 @@ const Btn = () => {
     const scrollToWork = (event: React.MouseEvent<HTMLButtonElement>) => { 
         const section = document.getElementById("work");
         if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
+            // Get the position of the element
+            const y = section.getBoundingClientRect().top + window.pageYOffset;
+            
+            // Scroll to element minus 80px (or whatever offset you prefer)
+            window.scrollTo({
+                top: y - 80,
+                behavior: 'smooth'
+            });
         }
     }
     return (
