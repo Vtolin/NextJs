@@ -2,7 +2,7 @@
 import React from "react";
 
 const Btn = () => {
-    const scrollToWork = (event: React.MouseEvent<HTMLButtonElement>) => { 
+    const scrollToWork = () => { 
         const section = document.getElementById("work");
         if (section) {
             section.scrollIntoView({ behavior: "smooth" });
