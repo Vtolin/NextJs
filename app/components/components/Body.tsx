@@ -1,5 +1,6 @@
 import React from "react";
 import Work from "./Works";
+import Contact from "./Contact";
 
 const Body = () => {
   return (
@@ -28,6 +29,7 @@ const Body = () => {
       </section>
 
       <Work />
+      <Contact />
     </main>
   );
 };
