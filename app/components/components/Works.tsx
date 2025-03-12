@@ -14,7 +14,7 @@ const work = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md w-[100%] text-black" id="works">
-                <Image src="/porto.png" alt="portoapp" layout="responsive" width={500} height={300} className="pb-[20px]" />
+                <Image src="/porto.png" alt="portoapp" width={500} height={300} className="pb-[20px]" />
                 <h3 className="text-xl font-semibold mb-2">Portofolio website with NextJs</h3>
                 <p className="text-gray-600">Project description goes here</p>
             </div>
