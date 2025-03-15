@@ -8,7 +8,7 @@ const work = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <div className="bg-white p-6 rounded-lg shadow-md text-black w-[100%]" id="works">
-                <Image src="/porto.png" alt="portoapp" width={500} height={300} className="pb-[20px] w-full" />
+                <Image src="/crud.png" alt="portoapp" width={500} height={300} className="pb-[20px] w-full" />
                 <h3 className="text-xl font-semibold mb-2">Basic C.R.U.D. App with Node.Js</h3>
                 <p className="text-gray-600">A user management CRUD application built with Node.js and MySQL, allowing users to create, read, update, and delete records containing names, emails, and input dates.</p>
             </div>
