@@ -6,7 +6,7 @@ export default function IntroScreen() {
   const [showIntro, setShowIntro] = useState(true)
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowIntro(false), 3500) // 3.5s
+    const timer = setTimeout(() => setShowIntro(false), 3500) 
     return () => clearTimeout(timer)
   }, [])
 

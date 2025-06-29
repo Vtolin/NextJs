@@ -1,11 +1,10 @@
 import Taskbar from "./components/Taskbar";
 import Image from "next/image";
-import IntroScreen from "./components/IntroScreen";
+
 
 export default function Home() {
   return (
     <>
-    <IntroScreen />
       <Taskbar />
       <div className="bg-[#363737] h-screen flex flex-col justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
