@@ -8,9 +8,6 @@ export default function Footer() {
                     &copy; {new Date().getFullYear()} Arya-kyun &gt;w&lt;.
                 </p>            
                 <div className="flex justify-center gap-2">
-                <p className="text-xs mt-2">
-                    Built with Next.js
-                </p>
                  <Link href="https://wa.me/+6281382454752">
                     <p className="text-xs mt-2 text-blue-500 hover:underline">
                         Whatsapp
