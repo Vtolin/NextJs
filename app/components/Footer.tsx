@@ -6,11 +6,16 @@ export default function Footer() {
             <div className="bg-[#363737 text-white py-4 text-center border-t-[2px] border-t-red-600">
                 <p className="text-sm">
                     &copy; {new Date().getFullYear()} Arya-kyun &gt;w&lt;.
-                </p>
+                </p>            
+                <div className="flex justify-center gap-2">
                 <p className="text-xs mt-2">
-                    Built with Next.js and React
+                    Built with Next.js
                 </p>
-            <div className="flex justify-center mt-4">
+                 <Link href="https://wa.me/+6281382454752">
+                    <p className="text-xs mt-2 text-blue-500 hover:underline">
+                        Whatsapp
+                    </p>
+                </Link>
                 <Link href="https://www.instagram.com/lukirainilucu">
                     <p className="text-xs mt-2 text-blue-500 hover:underline">
                         Instagram
