@@ -2,6 +2,7 @@
 import React from "react";
 import Taskbar from "../components/Taskbar";
 import PhotoCard from "../components/PhotoCard";
+import Footer from "../components/Footer";
 
 const images = Array.from({ length: 10 }, (_, i) => ({
   src: `/photos/pict${i + 1}.jpeg`,
@@ -26,6 +27,7 @@ const Work = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 };
