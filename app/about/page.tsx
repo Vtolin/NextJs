@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const AboutPage = () => {
   return (
     <>
-      <main className="max-w-[80%] mx-auto py-12 px-6">
+      <main className="md:max-w-[80%] w-[100%] mx-auto py-12 px-6">
         <Taskbar />
         <section className="mb-16">
           <div className="bg-[#363737] min-h-[80vh] flex flex-col justify-center items-center mt-[30px] rounded-2xl border border-gray-300 px-6 py-10">
@@ -14,7 +14,7 @@ const AboutPage = () => {
               About Me
             </h2>
 
-            <div className="flex flex-col md:flex-row items-center gap-10">
+            <div className="flex flex-col lg:flex-row items-center gap-10">
               <div className="flex justify-center md:justify-start">
                 <Image
                   src="/pfp.jpeg"
@@ -38,8 +38,9 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
+
         <div className="px-6 py-12 max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold text-white flex items-center gap-4 mt-[-60px] mb-[20px]">
+          <h2 className="text-2xl md:text-3xl font-semibold text-white flex flex-col md:justify-normal  md:text-left md:flex-row items-center justify-center gap-4 text-center mt-[-60px] mb-[20px]">
             <span className="md:w-[90px] md:h-[2px] md:bg-yellow-400"></span>
             Services
           </h2>
