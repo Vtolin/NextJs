@@ -10,7 +10,7 @@ const Btn = () => {
     }
     return (
         <div>
-            <button onClick={scrollToWork} className="bg-white text-black w-[150px] h-[45px] rounded mt-24 cursor-pointer">
+            <button onClick={scrollToWork} className="bg-white text-black w-[150px] h-[45px] rounded mt-16 cursor-pointer">
                 My Works
             </button>
         </div>
