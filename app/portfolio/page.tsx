@@ -14,9 +14,9 @@ const categorizedImages = {
   Train: [
     { src: "/serpicts/pict6.jpeg", alt: "Train 1" },
     { src: "/photos/train1.jpeg", alt: "Train 2" },
-    { src: "/photos/train2.jpg", alt: "Train 3" },
-    { src: "/photos/train3.jpg", alt: "Train 4" },
-    { src: "/photos/train4.jpg", alt: "Train 5" },
+    { src: "/photos/train2.JPG", alt: "Train 3" },
+    { src: "/photos/train3.JPG", alt: "Train 4" },
+    { src: "/photos/train4.JPG", alt: "Train 5" },
   ],
     macro: [
     { src: "/serpicts/pict3.jpeg", alt: "macro" },
