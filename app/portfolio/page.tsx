@@ -12,8 +12,9 @@ const images = Array.from({ length: 10 }, (_, i) => ({
 const Work = () => {
   return (
     <>
+    <div className="max-w-[1500px] justify-center items-center mx-auto">
       <Taskbar />
-      <section className="mb-16 pt-18 px-6">
+      <section className="mb-16 pt-18 px-6 ">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4 text-white">Moments in Motion</h2>
           <p className="bg-gradient-to-br from-white via-yellow-100 to-yellow-400 bg-clip-text text-transparent">
@@ -28,6 +29,7 @@ const Work = () => {
         </div>
       </section>
       <Footer />
+    </div>
     </>
   );
 };

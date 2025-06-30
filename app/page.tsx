@@ -5,6 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+    <div className="max-w-[1500px] mx-auto">
       <Taskbar />
       <div className="bg-[#363737] h-screen flex flex-col justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -27,6 +28,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }
