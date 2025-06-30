@@ -10,7 +10,7 @@ const AboutPage = () => {
         <main className="md:max-w-[80%] w-[100%] mx-auto py-12 px-6">
           <Taskbar />
           <section className="mb-16">
-            <div className="bg-[#363737] min-h-[80vh] flex flex-col justify-center items-center mt-[30px] rounded-2xl border border-gray-300 px-6 py-10">
+            <div className="bg-[#363737] min-h-[550px] flex flex-col justify-center items-center mt-[30px] rounded-2xl border border-gray-300 px-6 py-10">
               <h2 className="text-3xl font-bold mb-8 text-white text-center">
                 About Me
               </h2>
@@ -20,17 +20,15 @@ const AboutPage = () => {
                   <Image
                     src="/pfp.jpeg"
                     alt="Arya >w<"
-                    width={250}
-                    height={250}
-                    className="rounded-full object-cover border-[3px] border-white animate-slide-in-left w-[175px] h-[175px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px]"
+                    width={225}
+                    height={225}
+                    className="rounded-full object-cover border-[3px] border-white w-[175px] h-[175px] sm:w-[220px] sm:h-[220px] md:w-[225px] md:h-[225px]"
                   />
                 </div>
 
                 <div className="text-center md:text-left text-white max-w-md">
-                  <h3 className="text-xl font-semibold mb-3 animate-slide-in-left">
-                    Who I Am
-                  </h3>
-                  <p className="text-l sm:text-lg text-gray-300 leading-relaxed animate-slide-in-up">
+                  <h3 className="text-xl font-semibold mb-3">Who I Am</h3>
+                  <p className="text-l sm:text-lg text-gray-300 leading-relaxed">
                     I&apos;m a junior high school student exploring photography
                     at a semi-professional level. My journey began with
                     documenting school events, and over time, it has grown into
@@ -40,16 +38,19 @@ const AboutPage = () => {
                   </p>
                 </div>
               </div>
-              <p className="text-l sm:text-lg text-gray-300 leading-relaxed animate-slide-in-up lg:pl-[120px] lg:pr-[70px] text-center md:text-left">
-                With hands-on experience using both DSLR and mirrorless cameras,
-                I’ve developed a solid understanding of camera settings,
-                composition, and lighting. I now offer photography services,
-                including event documentation and personal photo
-                shoots—especially in cosplay photography, where I combine
-                creative direction with technical skill to capture unique and
-                expressive portraits. Professional Equipment DSLR & Mirrorless
-                Camera Expertise
-              </p>
+
+              <div className="text-center md:text-left text-white max-w-md lg:max-w-full lg:pl-[120px] lg:pr-[70px]">
+                <p className="text-l sm:text-lg text-gray-300 leading-relaxed">
+                  With hands-on experience using both DSLR and mirrorless
+                  cameras, I’ve developed a solid understanding of camera
+                  settings, composition, and lighting. I now offer photography
+                  services, including event documentation and personal photo
+                  shoots—especially in cosplay photography, where I combine
+                  creative direction with technical skill to capture unique and
+                  expressive portraits. Professional Equipment DSLR & Mirrorless
+                  Camera Expertise
+                </p>
+              </div>
             </div>
           </section>
 
