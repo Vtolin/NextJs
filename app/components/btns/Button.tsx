@@ -19,7 +19,7 @@ const Button = () => {
         return (
           <Link key={item.name} href={item.href}>
             <button
-              className={`text-sm md:text-base px-2 py-1 md:px-4 md:py-2 rounded-md transition-all font-medium border-b-2 ${
+              className={`text-xs md:text-base px-2 py-1 md:px-4 md:py-2 rounded-md transition-all font-medium border-b-2 ${
                 isActive
                   ? "text-white border-yellow-400"
                   : "text-gray-400 border-transparent hover:text-white"
