@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Taskbar from "../components/Taskbar";
 import Footer from "../components/Footer";
-import Link from "next/link";
 
 const AboutPage = () => {
   return (
