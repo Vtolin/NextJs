@@ -4,10 +4,12 @@ import Taskbar from "../components/Taskbar";
 import Link from "next/link";
 import "../lib/font-awsome";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
     <>
+    <div className="max-w-[1500px] mx-auto">
       <Taskbar />
       <section className="bg-[#1a1a1a] py-12 px-6 min-h-screen">
          <h2 className="text-4xl font-bold mb-6 text-center mt-[50px]">Contact Me</h2>
@@ -100,6 +102,8 @@ export default function Contact() {
 
         </div>
       </section>
+      <Footer />
+      </div>
     </>
   );
 }

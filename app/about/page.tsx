@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Taskbar from "../components/Taskbar";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 const AboutPage = () => {
   return (
@@ -38,88 +39,46 @@ const AboutPage = () => {
                     skills through street photography, creative projects, and by
                     building connections within local photography communities.
                   </p>
-                  
-                 
                 </div>
               </div>
               <p className="text-l sm:text-lg text-gray-300 leading-relaxed animate-slide-in-up lg:pl-[120px] lg:pr-[70px] text-center md:text-left">
-                    With hands-on experience using both DSLR and mirrorless
-                    cameras, I’ve developed a solid understanding of camera
-                    settings, composition, and lighting. I now offer photography
-                    services, including event documentation and personal photo
-                    shoots—especially in cosplay photography, where I combine
-                    creative direction with technical skill to capture unique
-                    and expressive portraits. Professional Equipment DSLR &
-                    Mirrorless Camera Expertise       
+                With hands-on experience using both DSLR and mirrorless cameras,
+                I’ve developed a solid understanding of camera settings,
+                composition, and lighting. I now offer photography services,
+                including event documentation and personal photo
+                shoots—especially in cosplay photography, where I combine
+                creative direction with technical skill to capture unique and
+                expressive portraits. Professional Equipment DSLR & Mirrorless
+                Camera Expertise
               </p>
             </div>
           </section>
 
-          <div className="md:hidden flex-col md:justify-center md:items-center md:h-[80px] flex">
-            <h2 className="text-2xl md:text-3xl font-semibold text-white flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
-              <span className="md:w-[90px] md:h-[2px] md:bg-yellow-400"></span>
-              What I Shot
-            </h2>
-          </div>
-
           <div className="px-6 py-12 max-w-6xl mx-auto">
-            <div>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-2 gap-y-4 sm:gap-x-4 sm:gap-y-6 place-items-center">
-                <Image
-                  src="/serpicts/train.jpeg"
-                  alt="train"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-                <Image
-                  src="/serpicts/bike.jpeg"
-                  alt="bike"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-                <Image
-                  src="/serpicts/personal.jpeg"
-                  alt="personal shoot"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-            </div>
-
-            <div className="hidden flex-col md:justify-center md:h-[80px] md:flex">
+            <div className="flex-col md:justify-center h-[80px] md:flex">
               <h2 className="text-2xl md:text-3xl font-semibold text-white flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
                 <span className="md:w-[90px] md:h-[2px] md:bg-yellow-400"></span>
                 What I Shot
               </h2>
             </div>
 
-            <div>
-              <div className="grid grid-cols-1 mt-[20px] md:mt-[0px] sm:grid-cols-3 sm:gap-4 gap-4 place-items-center">
-                <Image
-                  src="/serpicts/macro.jpeg"
-                  alt="Event 1"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-                <Image
-                  src="/serpicts/school.jpeg"
-                  alt="Event 2"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-                <Image
-                  src="/serpicts/street.jpeg"
-                  alt="Event 2"
-                  width={400}
-                  height={250}
-                  className="rounded-lg border-2 border-white object-cover w-[90%] sm:w-[350px] h-auto max-h-[300px] animate-slide-in-left hover:scale-105 transition-transform duration-300"
-                />
-              </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 place-items-center ">
+              {[
+                { emoji: "🚄", label: "Train" },
+                { emoji: "🛵", label: "Bike" },
+                { emoji: "🧍", label: "Person" },
+                { emoji: "🌼", label: "Macro" },
+                { emoji: "🏫", label: "School" },
+                { emoji: "🛣️", label: "Street" },
+              ].map((item, index) => (
+                <button
+                  key={index}
+                  className="bg-[#2b2b2b] text-white px-6 py-4 rounded-lg border-2 border-yellow-400 w-full text-lg hover:bg-yellow-400 hover:text-black transition-all font-semibold flex items-center justify-center gap-3 animate-slide-in-up"
+                >
+                  <span>{item.emoji}</span>
+                  {item.label}
+                </button>
+              ))}
             </div>
           </div>
         </main>
