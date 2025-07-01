@@ -23,7 +23,7 @@ This site showcases selected works in **portrait**, **street**, and **event phot
 ## 📸 Live Demo
 
 You can check it out at:  
-[here](https://arya-kyun-uwu.vercel.app)
+[aryar8.vercel.app](https://aryar8.vercel.app)
 
 ## 📜 License
 
