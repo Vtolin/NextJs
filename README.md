@@ -1,6 +1,6 @@
 # Photography Portfolio
 
-Welcome to Arya’s Photography Portfolio — a clean and expressive website built with Next.js and Tailwind CSS.
+Welcome to Arya’s Photography Portfolio — a clean built with Next.js and Tailwind CSS.
 Here, you’ll find a curated selection of Arya’s work across portrait, street, and event photography, along with available services and ways to get in touch.
 
 ## Tech Stack
