@@ -1,6 +1,6 @@
 # Photography Portfolio
 
-Welcome to my photography portfolio — a personal website built using **Next.js** and **Tailwind CSS**.  
+Welcome to my friends photography portfolio — a personal website built using **Next.js** and **Tailwind CSS**.  
 This site showcases selected works in **portrait**, **street**, and **event photography**, along with service offerings and contact info.
 
 ## Tech Stack
@@ -23,7 +23,7 @@ This site showcases selected works in **portrait**, **street**, and **event phot
 ## 📸 Live Demo
 
 You can check it out at:  
-[https://yourdomain.vercel.app](https://yourdomain.vercel.app)
+[here](https://arya-kyun-uwu.vercel.app)
 
 ## 📜 License
 
