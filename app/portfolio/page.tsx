@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Taskbar from "../components/Taskbar";
 import PhotoCard from "../components/PhotoCard";
