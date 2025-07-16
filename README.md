@@ -23,7 +23,7 @@ Here, you’ll find a curated selection of Arya’s work across portrait, street
 ## 📸 Live Demo
 
 You can check it out at:  
-[aryar8.vercel.app](https://aryar8.vercel.app)
+[arya-kyun-uwu](https://arya-kyun-uwu.vercel.app)
 
 ## 📜 License
 
